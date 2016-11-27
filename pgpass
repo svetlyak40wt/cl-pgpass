@@ -1,0 +1,3 @@
+*:6432:somedb:the-user:foo-pass
+*:*:meta_somedb:the-user:bar-pass
+my-host:12000:meta_somedb:the-user:another-pass
