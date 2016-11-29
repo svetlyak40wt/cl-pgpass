@@ -23,6 +23,10 @@ Usage
            (postmodern:query "SELECT COUNT(*) FROM users")
            ...)
 
+The difference between Postmodern's version of ``connect`` is that
+you have not to specify a password, because it will be extracted
+from pgpass file by the helper.
+
 Under the hood ``pgpass-postmodern:connect`` is a macro which will use
 ``pgpass:parse-file`` to read credentials from the file pointed to by
 ``PGPASSFILE`` or from ``~/.pgpass``. You can also call ``pgpass:parse-file``
