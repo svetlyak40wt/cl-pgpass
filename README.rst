@@ -11,6 +11,7 @@ Usage
 =====
 
 .. code-block:: lisp
+
    (let ((postmodern:*database*
             (pgpass-postmodern:connect
                "db_ro_local"
