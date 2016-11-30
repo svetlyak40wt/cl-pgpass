@@ -12,6 +12,10 @@
   (:use :cl :asdf))
 (in-package :pgpass-asd)
 
+(when (find-package 'postmodern)
+  (pushnew 'postmodern-available *features*))
+
+
 (defsystem pgpass
   :version "0.1"
   :author "Alexander Artemenko"
@@ -21,6 +25,7 @@
   :components ((:module "src"
                 :components
                 ((:file "pgpass")
+                 #+postmodern-available
                  (:file "postmodern"))))
   :description ""
   :long-description
