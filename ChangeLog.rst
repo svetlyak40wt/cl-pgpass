@@ -2,6 +2,12 @@
  ChangeLog
 ===========
 
+0.3.0
+=====
+
+* Conditional compilation was fixed.
+* Package ``pgpass-postmodern`` was renamed to ``pgpass.postmodern``.
+
 0.2.0
 =====
 

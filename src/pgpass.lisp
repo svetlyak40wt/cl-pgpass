@@ -74,7 +74,7 @@ environement variable or in the ~/.pgpass"
     
     ;; if file not found, probe-file will return nil
     (unless filename
-      (error "Unable to find ~/.pgpass")))
+      (error "Unable to find ~~/.pgpass")))
   
   (let ((content (alexandria:read-file-into-string filename)))
     (parse content)))
