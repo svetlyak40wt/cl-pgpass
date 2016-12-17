@@ -14,7 +14,7 @@
 
 
 (defsystem pgpass
-  :version "0.3.0"
+  :version "0.4.0"
   :author "Alexander Artemenko"
   :license "BSD"
   :depends-on (:split-sequence

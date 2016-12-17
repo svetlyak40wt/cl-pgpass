@@ -2,6 +2,12 @@
  ChangeLog
 ===========
 
+0.4.0
+=====
+
+* Added function ``pgpass.postmodern:get-spec``, which returns
+  a list, ready to use with ``postmodern:with-connection``.
+
 0.3.0
 =====
 
